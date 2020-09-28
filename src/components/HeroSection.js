@@ -23,7 +23,7 @@ function HeroSection(){
             buttonSize='btn--large'
             onClick={console.log('hey')}
           >
-            WATCH TRAILER <i className='far fa-play-circle' />
+           Contact Us 
           </Button>
         </div>
       </div>
