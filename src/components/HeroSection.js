@@ -10,20 +10,20 @@ function HeroSection(){
         <h1>DevcoKenya</h1>
         <p>Are you a developer?</p>
         <div className='hero-btns'>
-          <Button
-            className='btns'
+          <Button style='width:100px;'
+            className='btn--large btn--primary'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
           >
            Join us
           </Button>
           <Button
-            className='btns'
+            className='btn--large btn--primary'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
             onClick={console.log('hey')}
             >
-          Learn More 
+          Learn More
           </Button>
         </div>
       </div>
